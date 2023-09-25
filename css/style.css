@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    background-color: rgb(188, 249, 190, 0.5);
+    width: 400px;
+    height: 800px;
+    margin-top: 100px;
+}
+
+#barra_top {
+    width: 400px;
+    height: 5px;
+    background-color: rgba(188, 249, 190, 0.977);;
+    margin-bottom: 10px;
+}
+
+#quadrado {
+    width: 25px;
+    height: 25px;
+    background-color:#0ac1625b;
+    margin-top: 40px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+
+#inscrevase {
+    color: #090000 ;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 36px;
+    margin-left: 45px;
+    margin-top: -25px;
+}
+
+#form_inscrever {
+    width: 340px;
+    height: 650px;
+    background-color:rgba(162, 162, 162, 0.285);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#label{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#input {
+    font-family: 'roboto', 'sans-serif';
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    outline: 2px solid #1fc319bd;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+#olho {
+    margin-left: 300px;
+    margin-bottom: 35px;
+    margin-top: -40px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#label_numero {
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 100px;
+    padding-left: 18px;
+}
+
+#input_cep {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid #1fc319bd;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+
+#input_numero {
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid #1fc319bd;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+
+#select_cidade {
+    font-family: 'roboto' , 'sans-serrif';
+   border-radius: 5px;
+   width: 305px;
+   height: 35px;
+   border: none;
+   outline: 2px solid #1fc319bd;
+   padding-left: 5px;
+   margin-left: 20px;
+   margin-bottom: 15px;
+   cursor: pointer;
+}
+
+#input_checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 310px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#p_checkbox {
+    font-family: 'roboto', 'sans-serrif';
+    color: black;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: -23px;
+    cursor: pointer;
+}
+
+#botao_cadastro {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #0ac1625b;
+    color: #fff;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
